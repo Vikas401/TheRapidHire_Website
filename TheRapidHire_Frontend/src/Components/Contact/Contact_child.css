@@ -1,0 +1,174 @@
+#contact_child .service-bg {
+  background: linear-gradient(
+      135deg,
+      rgb(159, 162, 168, 0.5),
+      hsla(253, 74%, 33%, 0.5)
+    ),
+    url("https://therapidhiredev.herokuapp.com/banner//2021-10-21T09-17-28.582Zcontact-banner.jpg"),
+    no-repeat, center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 70vh;
+}
+
+#contact_child .fw-light {
+  color: #fff;
+  font-weight: 900 !important;
+  text-transform: uppercase;
+}
+
+#contact_child .lead {
+  color: #fff;
+  font-weight: 400 !important;
+  padding-top: 5px;
+}
+
+#contact_child .contact-sec {
+  padding: 50px 0px;
+}
+
+#contact_child .iq-contact-us {
+  background: #ffffff;
+  padding: 80px 0;
+  display: inline-block;
+  width: 100%;
+  clear: both;
+  float: left;
+}
+
+#contact_child input,
+input.form-control {
+  border: 1px solid #e4e4e4;
+  font-size: 16px;
+  height: 55px;
+  padding-left: 30px;
+  margin-bottom: 35px;
+  -webkit-border-radius: 90px;
+  -moz-border-radius: 90px;
+  border-radius: 90px;
+  -webkit-box-shadow: 0px 13px 25px 0px rgba(77, 54, 206, 0.2);
+  -moz-box-shadow: 0px 13px 25px 0px rgba(77, 54, 206, 0.2);
+  box-shadow: 0px 13px 25px 0px rgba(77, 54, 206, 0.2);
+  padding-right: 35%;
+}
+
+#contact_child input[type="checkbox"],
+input.form-control[type="checkbox"] {
+  margin-top: 0.5rem;
+  background: #fff;
+  height: auto;
+  border: 1px solid #4cbcec;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+
+#contact_child ::-webkit-input-placeholder {
+  color: #868894;
+}
+
+#contact_child ::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #868894;
+}
+
+#contact_child :-ms-input-placeholder {
+  /* IE 10+ */
+  color: #868894;
+}
+
+#contact_child :-moz-placeholder {
+  /* Firefox 18- */
+  color: #868894;
+}
+
+#contact_child textarea.form-control {
+  height: 230px;
+  padding: 15px 30px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  -webkit-box-shadow: 0px 13px 25px 0px rgba(77, 54, 206, 0.2);
+  -moz-box-shadow: 0px 13px 25px 0px rgba(77, 54, 206, 0.2);
+  box-shadow: 0px 13px 25px 0px rgba(77, 54, 206, 0.2);
+}
+
+#contact_child input:hover,
+input.form-control:hover,
+input:focus,
+input.form-control:focus,
+textarea.form-control:hover,
+textarea.form-control:focus {
+  border: 1px solid #7c60d5;
+  -webkit-box-shadow: 0px 0px 25px 0px rgba(77, 54, 206, 0.2);
+  -moz-box-shadow: 0px 0px 25px 0px rgba(77, 54, 206, 0.2);
+  box-shadow: 0px 0px 25px 0px rgba(77, 54, 206, 0.2);
+}
+
+#contact_child .contact-icon {
+  font-size: 24px;
+  color: #4cbcec;
+}
+#contact_child .contact-icon span {
+  font-size: 16px;
+  color: #333;
+  margin-left: 10px;
+}
+
+#contact_child .button {
+  color: #ffffff;
+  cursor: pointer;
+  text-transform: capitalize;
+  font-weight: 700;
+  border: none;
+  position: relative;
+  background: transparent;
+  display: inline-block;
+  border-radius: 50px;
+}
+
+#contact_child .submit-button button {
+  background-color: transparent;
+  color: #000;
+  border-radius: 50px;
+  border: 1px solid #4cbcec;
+  padding: 0 40px;
+  line-height: 40px;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+#contact_child .submit-button button:hover {
+  background: #4cbcec;
+  color: #fff;
+}
+
+#contact_child .footer-social-icn {
+  display: flex;
+}
+
+#contact_child .footer-social-icn li {
+  list-style: none;
+  display: inline-block;
+}
+#contact_child .footer-social-icn li a i {
+  margin-right: 0rem;
+}
+#contact_child .footer-social-icn li a {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  font-size: 20px;
+  text-align: center;
+  color: #000;
+  line-height: 40px;
+  margin-left: 15px;
+}
+
+#contact_child .footer-social-icn li a:hover {
+  color: #fff !important;
+  background: #4cbcec;
+  border-radius: 50px;
+}

@@ -1,0 +1,192 @@
+#career .service-bg {
+  background: linear-gradient(
+      135deg,
+      rgb(159, 162, 168, 0.5),
+      hsla(253, 74%, 33%, 0.5)
+    ),
+    url("https://therapidhiredev.herokuapp.com/banner//2021-10-21T09-16-29.889Zcareer-bg.jpg")
+      no-repeat,
+    center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 70vh;
+}
+
+#career .fw-light {
+  color: white;
+  font-weight: 900 !important;
+  text-transform: uppercase;
+}
+
+#career .lead {
+  color: white;
+  font-weight: 400 !important;
+  padding-top: 5px;
+}
+
+#career .contact-sec {
+  padding: 50px 0px;
+}
+
+#career .sec-career {
+  padding: 50px 0px;
+}
+
+#career .career-head {
+  text-align: center;
+}
+
+#career .careerPage h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: normal;
+  font-family: "Muli", sans-serif !important;
+  padding-top: 38px;
+  padding-bottom: 8px;
+}
+#career .CompanyPerks-box p .fas,
+.far {
+  font-size: 37px;
+  color: #46b9ec;
+}
+
+#career .sectin-sub-title {
+  position: relative;
+  padding-top: 20px;
+}
+
+.sectin-sub-title:after {
+  margin: auto;
+  width: 70px;
+  height: 2px;
+  background: #46b9ec;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: "";
+}
+
+#career .hire {
+  background: #f2f2f2;
+  padding: 25px;
+
+  transition: 500ms;
+  position: relative;
+
+  margin: 0 3% 30px;
+  cursor: pointer;
+}
+
+#career .hire .forward-arrow {
+  visibility: hidden;
+  position: absolute;
+  bottom: 46px;
+  right: 20px;
+  background: #fff;
+  border-radius: 50px;
+  padding: 5px;
+  height: 30px;
+  width: 30px;
+}
+#career .hire .location-hover {
+  display: none;
+}
+#career .hire:hover {
+  background: #4cbcec;
+  box-shadow: 0px 4px 50px rgba(33, 33, 38, 0.6);
+  color: #fff !important;
+}
+#career .hire:hover .forward-arrow {
+  visibility: visible;
+}
+#career .hire:hover .location-img {
+  display: none;
+}
+#career .hire:hover .location-hover {
+  display: inline-block;
+}
+#career .hire p {
+  font-size: 16px;
+  color: var(--off-grey);
+  margin: 0;
+}
+#career .hire h4 {
+  font-size: 18px;
+  color: var(--darkDot-blue);
+  font-weight: 700;
+  font-family: "Muli", sans-serif !important;
+}
+#career .hire:hover h4 {
+  color: var(--white-color);
+}
+#career .hire:hover p {
+  color: #fff;
+}
+
+#career .modal-header .modal-title {
+  font-size: 20px;
+  line-height: 26px;
+  color: #6aadd3;
+  font-weight: bold;
+}
+
+#career .modal-header span {
+  color: #75757a;
+  font-size: 14px;
+  line-height: 26px;
+  margin-left: 10px;
+}
+
+#career .modal-header p {
+  color: #75757a;
+  font-size: 14px;
+  line-height: 26px;
+  margin-bottom: 0;
+}
+
+#career .listHeading {
+  color: #212126;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+#career .listForJob li {
+  font-size: 14px;
+  line-height: 22px;
+  color: #75757a;
+  list-style: disc !important;
+  margin-bottom: 7px;
+}
+
+#career .black-btn.filled-btn {
+  background: #46b9ec;
+  color: #fff;
+  font-size: 16px;
+  line-height: 30px;
+}
+#career .black-btn.filled-btn img {
+  max-width: 30px;
+  max-height: 30px;
+  margin-left: 5px;
+  color: #fff !important;
+  transition: all 0.1s ease-in-out;
+}
+
+#career .modal-footer {
+  border: 0;
+  padding-top: 0;
+  justify-content: flex-start;
+  padding-left: 24px;
+}
+.modal {
+  background: rgba(0, 0, 0, 0.5);
+}
+.modal-backdrop {
+  display: none;
+}

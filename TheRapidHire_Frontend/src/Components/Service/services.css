@@ -1,0 +1,171 @@
+#services .service-bg {
+  background: linear-gradient(
+      135deg,
+      rgb(159, 162, 168, 0.5),
+      hsla(253, 74%, 33%, 0.5)
+    ),
+    url("https://therapidhiredev.herokuapp.com/banner//2021-10-21T09-09-37.262Zabout-banner.jpg"), no-repeat, center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 70vh;
+}
+
+#services .fw-light {
+  color: #fff;
+  font-weight: 900 !important;
+  text-transform: uppercase;
+}
+
+#services .lead {
+  color: #fff;
+  font-weight: 400 !important;
+  padding-top: 5px;
+}
+
+#services .web-img {
+  border-radius: 30px;
+  height: 400px;
+  padding: 10px;
+}
+
+#services .web-head {
+  padding: 40px 0px;
+}
+#services .web-head h3 {
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+#services .web-head p {
+  text-align: justify;
+  padding: 20px 0px;
+  line-height: 30px;
+}
+
+#services .web-head button {
+  background: transparent;
+  color: #000 !important;
+  text-align: center;
+  padding: 5px 40px;
+  border-radius: 20px;
+  border: 2px solid #4CBCEC;
+  margin: 10px 0px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+#services .web-head button:hover {
+  color: #fff !important;
+  background: #4CBCEC;
+}
+#services .web-bg {
+  background: whitesmoke;
+}
+
+#services .contact-bg {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+      135deg,
+      rgb(159, 162, 168, 0.5),
+      hsla(253, 74%, 33%, 0.5)
+    ),
+    url("https://therapidhiredev.herokuapp.com/banner/2021-11-09T11-49-56.694Zcontact.jpg") no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+#services .contact-description {
+  padding: 100px 0px 0px 0px;
+  text-align: center;
+}
+
+#services .contact-description h1 {
+  color: #fff;
+  font-weight: bolder;
+}
+#services .contact-description button {
+  background: transparent;
+  color: #fff !important;
+  text-align: center;
+  padding: 5px 40px;
+  border-radius: 20px;
+  border: 2px solid #4CBCEC;
+  margin: 50px 0px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+#services .contact-description button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#services .contact-description button:hover {
+  color: #fff;
+  background: #4CBCEC;
+}
+
+@media only screen and (max-width: 990px) {
+  #services .web-head h3 {
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 0px 10px;
+  }
+
+  #services .web-head p {
+    text-align: justify;
+    padding: 0px 10px;
+  }
+  #services .web-head button {
+    margin: 0px 10px;
+  }
+  /* //animation hidden in mobile view */
+  [data-aos] {
+    pointer-events: auto !important;
+  }
+
+  html:not(.no-js) [data-aos^=fade][data-aos^=fade] {
+    opacity: 1 !important;
+  }
+
+  html:not(.no-js) [data-aos=fade-right],html:not(.no-js) [data-aos=fade-left] {
+    transform: none !important;
+  }
+/* end */
+  #services .web-img {
+    border-radius: 30px;
+    height: 400px;
+    padding: 30px;
+}
+
+}
+@media only screen and (min-width: 767px) {
+  #services .sec-service {
+    padding: 10px 0px 0px 0px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  [data-aos] {
+    pointer-events: auto !important;
+  }
+
+  html:not(.no-js) [data-aos^=fade][data-aos^=fade] {
+    opacity: 1 !important;
+  }
+
+  html:not(.no-js) [data-aos=fade-right],html:not(.no-js) [data-aos=fade-left] {
+    transform: none !important;
+  }
+  #services .web-img {
+    border-radius: 30px;
+    height: 300px;
+    padding: 30px;
+}
+}

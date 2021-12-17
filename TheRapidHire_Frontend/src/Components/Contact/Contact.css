@@ -1,0 +1,119 @@
+#contact {
+  padding: 20px 0px;
+}
+#contact .nio-eig-contact-section .nio-eig-contact-content {
+  z-index: 1;
+  padding: 40px;
+}
+#contact .nio-eig-contact-form-wrap {
+  padding: 45px 10px 45px 40px;
+}
+#contact .nio-eig-contact-form-wraps h3 {
+  color: #191728;
+  font-size: 36px;
+  font-weight: 700;
+}
+#contact.nio-eig-contact-area {
+  margin-top: 25px;
+}
+#contact .nio-eig-contact-area .nio-eig-contact-input {
+  margin: 15px -10px;
+}
+
+#contact .nio-eig-contact-area input {
+  width: 50%;
+  float: left;
+  margin: 0px 10px;
+  height: 52px;
+  padding-left: 20px;
+  border: 1px solid #e9e9e9;
+  border-radius: 20px;
+}
+
+
+.nio-eig-contact-area textarea {
+  width: 100%;
+  height: 130px;
+  padding-top: 15px;
+  padding-left: 20px;
+    margin-bottom: 15px;
+    border: 1px solid #e9e9e9;
+    border-radius: 20px;
+
+}
+
+.nio-eig-contact-area button {
+  color: #000;
+  height: 50px;
+  width: 165px;
+  border: 2px solid #4CBCEC;
+  font-size: 14px;
+  font-weight: 700;
+  /* line-height: 50px; */
+  border-radius: 30px;
+  font-family: "Poppins";
+  /* background-color: #066ae5; */
+  transition: 0.3s all ease-in-out;
+  background: transparent !important;
+}
+
+.nio-eig-contact-img {
+  padding-left: 30px;
+}
+
+.nio-eig-contact-img .color-shape {
+  right: 0;
+  top: -30px;
+}
+
+.nio-eig-contact-img-wrap{
+  padding-top:70px;
+}
+
+.nio-eig-contact-section .nio-eig-contact-content:after {
+  top: 0;
+  left: 0;
+  width: 60%;
+  z-index: -1;
+  content: "";
+
+  height: 100%;
+  position: absolute;
+  background-color: #fafafa;
+}
+
+
+#contact .submitbutton button:hover {
+  color: #fff !important;
+  background: #4CBCEC !important ;
+  border: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#contact .list-group-item {
+  position: relative;
+  display: block;
+  padding: 1rem 1rem;
+  color: white;
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+}
+
+#contact .list-group {
+  display: flex;
+  flex-direction: row;
+  padding-left: 0;
+  margin-bottom: 0;
+  border-radius: 0.25rem;
+}
+
+#contact .map img {
+  width: 100%;
+  padding-top: 40px;
+}

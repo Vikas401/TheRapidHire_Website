@@ -1,0 +1,89 @@
+#technology {
+    padding: 60px 100px;
+}
+#technology .content{
+    text-align: center;
+}
+#technology h2{
+    font-weight: 500;
+    font-size: 32px;
+    color: #323232;
+}
+#technology p {
+    font-size: 18px;
+    line-height: 30px;
+    color: #323232;
+    font-weight: 300;
+    padding-bottom: 50px;
+}
+#technology .content1{
+    display: flex;
+}
+#technology .contents{
+    padding-top: 100px;
+}
+#technology .contents h3{
+    margin-left: 1rem;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+#technology .contents .cont1{
+   background-color: #f1f8ff;
+   padding: 10px;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+  
+}
+
+@keyframes scroll {
+	0% { transform: translateX(0); }
+	100% { transform: translateX(calc(-250px * 20))}
+}
+
+#technology .slider {
+	height: 100px;
+	margin: auto;
+	overflow:hidden;
+	position: relative;
+	width: auto;
+}
+	
+#technology .slide-track {
+		animation: scroll 40s linear infinite;
+		display: flex;
+		width: calc(250px * 31);
+	}
+    #technology	.slide {
+		height: 100px;
+		width: 250px;
+	}
+
+@media only screen and (max-width: 450px) {
+    #technology {
+        background-color: whitesmoke;
+        padding: 30px 30px;
+    }
+    #technology .contents{
+        padding-top: 20px;
+    }
+    #technology .contents .cont1{
+       margin-top: 1rem;
+     }
+     #technology .content1 h3{
+        font-size: 20px;
+    }
+  
+}
+@media only screen and (max-width: 800px) {
+    #technology .content1 h3{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    #technology .content1 h3{
+        font-size: 20px;
+    }
+}
+

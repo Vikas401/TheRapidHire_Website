@@ -1,0 +1,71 @@
+#forgot {
+  padding: 37px 0px;
+  background-color: #ededed;
+}
+
+#forgot .panel {
+  border: 2px solid #000;
+  padding: 20px;
+  background: #fff;
+  border-radius: 2px;
+  display: inline-block;
+  height: 450px;
+  margin: 1rem;
+  position: relative;
+  width: 300px;
+}
+
+#reset {
+  padding: 73px 0px;
+  background-color: #ededed;
+}
+#reset .panel {
+  border: 2px solid #000;
+  padding: 20px; 
+  background: #fff;
+  border-radius: 2px;
+  display: inline-block;
+  height: 380px;
+  margin: 1rem;
+  position: relative;
+  width: 300px;
+}
+
+#otp {
+  background-color: #ededed;
+  padding: 150px 0px;
+}
+
+#otp .card {
+  width: 350px;
+  padding: 10px;
+  border-radius: 20px;
+  background: #fff;
+  border: none;
+  height: 350px;
+  position: relative
+}
+
+
+#otp .mobile-text {
+  color: #989696b8;
+  font-size: 15px
+}
+
+#otp .form-control {
+  margin-right: 5px !important;
+  padding-right: 12% !important;
+}
+
+#otp .form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #ff8880;
+  outline: 0;
+  box-shadow: none
+}
+
+#otp .cursor {
+  cursor: pointer
+}
+

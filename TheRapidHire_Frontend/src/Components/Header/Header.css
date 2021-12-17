@@ -1,0 +1,29 @@
+.navbar .logo {
+  height: 7vh;
+}
+
+
+
+#navbarNav .nav-item a {
+  color: black;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-right: 40px; 
+  
+}
+
+
+
+#navbarNav .active{
+  color: #46B9EC !important;
+  border-bottom: 2px solid #46B9EC;  
+}
+
+.navbar 
+{
+  box-shadow: 0px 30px 30px 30px rgb(255 255 255 / 10%);
+}
+
+
+
+

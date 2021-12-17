@@ -1,0 +1,48 @@
+#compony {
+  /* background-color: whitesmoke; */
+  padding: 30px 100px;
+}
+#compony .content {
+  text-align: center;
+}
+#compony h2 {
+  font-weight: 500;
+  font-size: 32px;
+  color: #323232;
+}
+#compony p {
+  font-size: 18px;
+  line-height: 30px;
+  color: #323232;
+  font-weight: 300;
+}
+
+#compony .company-bg {
+  padding: 30px;
+  border: 1px solid #cecece;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  min-height: 200px;
+  box-shadow: 0 0 10px #ccc;
+  background-color: #edf5ff;
+}
+#compony .compony_row {
+  padding-top: 30px;
+}
+#compony .company-bg img {
+  max-width: 100%;
+  filter: grayscale(100%);
+  transition: all 0.3s;
+}
+
+
+@media (max-width: 450px) {
+  #compony {
+    /* background-color: whitesmoke; */
+    padding: 30px 30px;
+  }
+}
+

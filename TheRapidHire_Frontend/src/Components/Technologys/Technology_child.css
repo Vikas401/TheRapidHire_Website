@@ -1,0 +1,415 @@
+#technology_child .service-bg {
+  background: linear-gradient(
+      135deg,
+      rgb(159, 162, 168, 0.5),
+      hsla(253, 74%, 33%, 0.5)
+    ),
+    url("https://therapidhiredev.herokuapp.com/banner/2021-10-21T09-11-58.147Ztechnology.jpg"), no-repeat, center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 70vh;
+}
+
+#technology_child .fw-light {
+  color: #fff;
+  font-weight: 900 !important;
+  text-transform: uppercase;
+}
+
+#technology_child .lead {
+  color: #fff;
+  font-weight: 400 !important;
+  padding-top: 5px;
+}
+
+#technology_child .our-tech {
+  padding-top: 70px;
+}
+
+#technology_child .home-info-grey h2 {
+  font-weight: 700;
+  /* font-size: 16px;
+    font-style: italic */
+}
+
+#technology_child .home-info-grey p {
+  color: #626163;
+  font-weight: 500;
+  padding: 20px 0;
+  line-height: 30px;
+  /* font-size: 16px */
+}
+
+#technology_child .drop-cap {
+  margin-right: 25px;
+  float: left;
+  text-align: center;
+  line-height: 1;
+  font-size: 50px;
+}
+
+#technology_child .team1 {
+  padding-block-end: 50px;
+  background-color: whitesmoke;
+}
+#technology_child .web-head p {
+  text-align: justify;
+}
+#technology_child .web-head button {
+  border-radius: 20px;
+  background: #28b0ea;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 4px 10px;
+}
+
+#technology_child .contact-bg {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+      135deg,
+      rgb(159, 162, 168, 0.5),
+      hsla(253, 74%, 33%, 0.5)
+    ),
+    url("https://therapidhiredev.herokuapp.com/banner/2021-11-09T11-49-56.694Zcontact.jpg") no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+#technology_child .contact-description {
+  padding: 100px 0px 0px 0px;
+  text-align: center;
+}
+
+#technology_child .contact-description h1 {
+  color: #fff;
+  font-weight: bolder;
+}
+#technology_child .contact-description button {
+  background: transparent;
+  color: #fff;
+  text-align: center;
+  padding: 5px 40px;
+  border-radius: 20px;
+  border: 2px solid #4CBCEC;
+  margin: 50px 0px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+#technology_child .contact-description button:hover {
+  color: #fff;
+  background: #4CBCEC;
+}
+#technology_child .contact-description button a {
+  text-decoration: none;
+  color: #fff !important;
+}
+#technology_child .web-bg {
+  background-color: #f5f5f5;
+}
+
+#technology_child .iamge2 {
+  padding-block-start: 50px;
+  height: 350px;
+}
+#technology_child .row1 {
+  margin-block-start: 40px;
+}
+
+#technology_child .container .col-md-4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#technology_child .text {
+  color: black;
+  text-align: center;
+}
+
+#technology_child .folded-corner:hover .text {
+  visibility: visible;
+  color: #000000;
+}
+
+#technology_child .Services-tab {
+  margin-top: 80px;
+}
+
+#technology_child .folded-corner {
+  padding: 60px 30px;
+  position: relative;
+  font-size: 100%;
+  text-decoration: none;
+  color: #999;
+  height: 450px;
+  background: transparent;
+  transition: all ease 0.5s;
+  border: 1px solid whitesmoke;
+}
+
+#technology_child .folded-corner:hover {
+  background-color: #4ac4f3;
+}
+
+#technology_child .folded-corner:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-style: solid;
+  border-width: 0 0px 0px 0;
+  border-color: #ddd whitesmoke;
+  transition: all ease 0.3s;
+}
+
+#technology_child .folded-corner:hover:before {
+  background-color: #4ac4f3;
+  border-width: 0 50px 50px 0;
+  border-color: #eee #4ac4f3;
+}
+
+#technology_child .service_tab_1 {
+  background-color: whitesmoke;
+}
+
+#technology_child .service_tab_1:hover .image1 {
+  color: rgb(0, 0, 0);
+  transform: scale(1.5);
+}
+
+#technology_child .fa-icon-image {
+  /* color: #ec5626; */
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  font-size-adjust: none;
+  font-stretch: normal;
+  -moz-font-feature-settings: normal;
+  -moz-font-language-override: normal;
+  text-rendering: auto;
+  transition: all 0.65s linear 0s;
+  text-align: center;
+  transition: all 1s cubic-bezier(0.99, 0.82, 0.11, 1.41);
+}
+
+/* section2 */
+#technology_child .content {
+  width: 100vw;
+  min-height: 100vh;
+}
+
+#technology_child .content .container {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  box-shadow: 2px 15px 20px #1f1f1f10, -2px -8px 20px #1f1f1f1a;
+}
+
+#technology_child .container .rollers {
+  flex: 0 0 230px;
+}
+
+#technology_child .container .start-roller {
+  left: 0;
+  top: 0;
+  background-image: linear-gradient(to right, white 30%, #ffffff00);
+}
+
+#technology_child .container .start-roller,
+.container .end-roller {
+  /* height: 100%;
+    width: 40px;
+    position: absolute; */
+  z-index: 1;
+}
+
+#technology_child .container .end-roller {
+  right: 0;
+  top: 0;
+  background-image: linear-gradient(to left, white 30%, rgba(255, 255, 255, 0));
+}
+
+#technology_child .container .rollers .wrapper {
+  position: relative;
+  width: 1400px;
+  height: 100px;
+  margin: 0 0 20px 0;
+  flex: 0 0 auto;
+}
+
+#technology_child .container .rollers .wrapper .items-container {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+#technology_child .container .rollers .wrapper .items-container.roll-LL {
+  animation-name: roll;
+}
+
+#technology_child .container .rollers .wrapper .items-container.roll-RL {
+  animation-name: roll-reverse;
+  left: 100%;
+}
+
+#technology_child
+  .container
+  .rollers
+  .wrapper
+  .items-container.reverse-roll-LL {
+  animation-name: roll-clockwise;
+  left: -100%;
+}
+
+#technology_child
+  .container
+  .rollers
+  .wrapper
+  .items-container.reverse-roll-RL {
+  animation-name: roll-reverse-clockwise;
+  left: 100%;
+}
+
+@keyframes roll {
+  0% {
+    left: 0%;
+  }
+
+  100% {
+    left: -100%;
+  }
+}
+
+@keyframes roll-reverse {
+  0% {
+    left: 100%;
+  }
+
+  100% {
+    left: 0%;
+  }
+}
+
+@keyframes roll-clockwise {
+  0% {
+    left: -100%;
+  }
+
+  100% {
+    left: 0%;
+  }
+}
+
+@keyframes roll-reverse-clockwise {
+  0% {
+    left: 0%;
+  }
+
+  100% {
+    left: 100%;
+  }
+}
+
+#technology_child .container .rollers .wrapper .items-container .item {
+  flex: 1 1 200px;
+  min-width: 0;
+  margin: 20px;
+}
+
+#technology_child .container .rollers .wrapper .items-container .item .company {
+  filter: grayscale(100%);
+  opacity: 0.2;
+  width: 100%;
+  object-fit: contain;
+}
+
+#technology_child
+  .container
+  .rollers
+  .wrapper
+  .items-container
+  .item
+  .company:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+  cursor: pointer;
+}
+
+#technology_child .container img {
+  vertical-align: middle;
+}
+
+@media (max-width: 575.5px) {
+  #technology_child .content {
+    padding: 20px;
+  }
+
+  #technology_child .content .container {
+    padding: 20px;
+  }
+
+  #technology_child .h3 {
+    font-size: calc(1.1rem + 0.6vw);
+  }
+
+  #technology_child .fs-5 {
+    font-size: 0.9rem !important;
+  }
+
+  #technology_child
+    .container
+    .rollers
+    .wrapper
+    .items-container
+    .item
+    .company {
+    opacity: 0.4;
+  }
+}
+
+#technology_child .icon3 {
+  background-color: whitesmoke;
+  padding-block-end: 50px;
+  padding-block-start: 50px;
+}
+/* end section */
+
+
+@media only screen and (max-width: 450px) {
+  #technology_child .Services-tab {
+    margin-top: 20px;
+  }
+  #technology_child .our-tech {
+    padding-top: 35px;
+}
+#technology_child .home-info-grey h2 {
+  text-align: center;
+}
+  }
+  
+  @media only screen and (max-width: 990px) {
+    #technology_child .Services-tab {
+      margin-top: 20px;
+    }
+    #technology_child .our-tech {
+      padding-top: 35px;
+  }
+  #technology_child .home-info-grey h2 {
+    text-align: center;
+}
+    }
+  

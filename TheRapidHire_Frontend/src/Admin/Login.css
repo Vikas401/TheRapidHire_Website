@@ -1,0 +1,67 @@
+  /* #login{
+      background-color: rgb(228, 229, 247);
+  } */
+#login .card {
+    font-family: sans-serif;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+    margin-bottom:3em;
+    border-radius: 10px;
+    background-color: #ffff;
+    padding: 1.8rem;
+    box-shadow: 2px 5px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  #login .title {
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+  }
+  #login .subtitle {
+    text-align: center;
+    font-weight: bold;
+  }
+  #login .btn-text {
+    margin: 0;
+  }
+  
+  
+  #login .email-login {
+    display: flex;
+    flex-direction: column;
+  }
+  .email-login label {
+    color: rgb(170 166 166);
+  }
+  
+  #login  input[type="text"],
+  input[type="password"] {
+    padding: 15px 20px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+  }
+  
+  #login .cta-btn {
+    background-color: rgb(69, 69, 185);
+    color: white;
+    padding: 18px 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+  }
+  
+  #login .forget-pass {
+    text-align: center;
+    display: block;
+  }
+
+  #hr .table-contain{
+    padding-top: 100px;
+  }

@@ -1,0 +1,185 @@
+#about .service-bg {
+  background: linear-gradient(
+      135deg,
+      rgb(159, 162, 168, 0.5),
+      hsla(253, 74%, 33%, 0.5)
+    ),
+    url("https://therapidhiredev.herokuapp.com/banner/2021-10-21T09-07-25.574Zservice-bg.jpg"),
+    no-repeat, center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 70vh;
+}
+
+#about .fw-light {
+  color: #fff;
+  font-weight: 900 !important;
+  text-transform: uppercase;
+}
+
+#about .lead {
+  color: #fff;
+  font-weight: 400 !important;
+  padding-top: 5px;
+}
+
+#about .about-sec {
+  padding: 50px 0px 20px 0px;
+}
+
+#about .who-we h1 {
+  color: #000;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+#about .who-img {
+  overflow-x: hidden;
+  height: 300px;
+}
+
+#about .who-we p {
+  text-align: justify;
+  padding: 20px 0px;
+  line-height: 26px;
+}
+#about .why-choose h1 {
+  text-align: center;
+  font-weight: 900;
+}
+
+#about .choose_us {
+  text-align: center;
+}
+
+#about .choose_us img {
+  opacity: 0.7;
+}
+
+#about .img_circle {
+  border: 2px solid #03a3e7;
+  width: 150px;
+  margin: 0px auto;
+  height: 150px;
+  border-radius: 50%;
+  padding-top: 39px;
+  transition: 0.5s ease;
+}
+#about .img_circle img {
+  height: 80px;
+}
+#about .choose_us:hover .img_circle {
+  background-color: #03a3e7;
+  transition: 0.5s ease;
+  color: #fff;
+}
+
+#about .choose_us h3 {
+  padding-top: 10px;
+}
+#about .choose_us:hover h3 {
+  padding-top: 10px;
+  color: #03a3e7;
+}
+
+#about .vision-mission-content {
+  height: 100%;
+  position: relative;
+  padding: 30px;
+  box-shadow: rgb(0 0 0 / 15%) 0 2px 8px;
+  transition: all 0.3s ease-out;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#about .vision-mission-content img {
+  height: 100px;
+}
+
+#about .vision-mission-content:hover {
+  box-shadow: 0 10px 36px rgb(0 0 0 / 5%), 0 24px 46px rgb(0 169 157 / 25%);
+}
+
+#about .vision-mission-content h3 {
+  text-align: center;
+}
+#about .vision-mission-content p {
+  text-align: justify;
+}
+
+#about .about-bg {
+  background: #f5f5f5;
+}
+
+#about .contact-bg {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+      135deg,
+      rgb(159, 162, 168, 0.5),
+      hsla(253, 74%, 33%, 0.5)
+    ),
+    url("https://therapidhiredev.herokuapp.com/banner/2021-11-09T11-49-56.694Zcontact.jpg")
+      no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+#about .contact-description {
+  padding: 100px 0px 0px 0px;
+  text-align: center;
+}
+
+#about .contact-description h1 {
+  color: #fff;
+  font-weight: bolder;
+}
+#about .contact-description button {
+  background: transparent;
+  color: #fff;
+  text-align: center;
+  padding: 5px 40px;
+  border-radius: 20px;
+  border: 2px solid #4cbcec;
+  margin: 50px 0px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+#about .contact-description button a {
+  text-decoration: none;
+  color: #fff !important;
+}
+
+#about .contact-description button:hover {
+  color: #fff;
+  background: #4cbcec;
+}
+
+#about .read-more-less--more {
+  color: #003380 !important;
+  font-weight: 900;
+}
+
+#about .read-more-less--less {
+  color: #003380 !important;
+  font-weight: 900;
+}
+
+@media only screen and (max-width: 450px) {
+  #about .who-we h1 {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  #about .who-we h1 {
+    text-align: center;
+  }
+}

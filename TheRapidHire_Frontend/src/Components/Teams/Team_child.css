@@ -1,0 +1,458 @@
+#team_child .maincard {
+  position: relative;
+  width: 365px;
+  height: 317px;
+}
+
+#team_child .thecard {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 0.8s ease;
+}
+
+#team_child .thecard {
+  transform: rotateY(180deg);
+}
+
+#team_child .thefront {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(50, 161, 180);
+  /* background: #D50000; */
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 1px solid #eee;
+  box-shadow: 5px 6px 6px 2px #e9ecef;
+  padding: 10px;
+}
+
+#team_child .theback {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  background-color: rgb(50, 161, 180);
+  /* background: #D50000; */
+  color: #fff;
+  border-radius: 10px;
+  transform: rotateY(180deg);
+  border: 1px solid #eee;
+  box-shadow: 5px 6px 6px 2px #e9ecef;
+  padding: 10px;
+}
+
+#team_child .user_name {
+  color: #eee;
+  font-size: 10px;
+  margin-top: 0px;
+}
+
+#team_child .about {
+  font-size: 12px;
+}
+#team_child .home-info-grey h2 {
+  color: var(--black);
+  font-weight: 700;
+  /* font-size: 16px;
+    font-style: italic */
+}
+
+#team_child .home-info-grey p {
+  color: #626163;
+  font-weight: 500;
+  /* font-size: 16px */
+  padding: 20px 0px;
+  line-height: 30px;
+}
+
+#team_child .drop-cap {
+  margin-right: 25px;
+  float: left;
+  text-align: center;
+  line-height: 1;
+  font-size: 50px;
+}
+
+#team_child .drop-cap-letter {
+  color: #ff8700;
+  font-size: 90px;
+  font-weight: 700;
+}
+
+#team_child .drop-cap-text {
+  color: #231833;
+  font-size: 34px;
+  font-weight: 500;
+}
+#team_child .col-md-7 {
+  padding-top: 50px;
+  margin-top: 50px;
+}
+#team_child .team1 {
+  padding-block-end: 50px;
+  background-color: whitesmoke;
+}
+#team_child .web-head p {
+  text-align: justify;
+}
+#team_child .web-head button {
+  border-radius: 20px;
+  background: #28b0ea;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 4px 10px;
+}
+
+#team_child .contact-bg {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+      135deg,
+      rgb(159, 162, 168, 0.5),
+      hsla(253, 74%, 33%, 0.5)
+     
+    ),
+    url("https://therapidhiredev.herokuapp.com/banner/2021-11-09T11-49-56.694Zcontact.jpg") no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+#team_child .contact-description {
+  padding: 100px 0px 0px 0px;
+  text-align: center;
+}
+
+#team_child .contact-description h1 {
+  color: #fff;
+  font-weight: bolder;
+}
+#team_child .contact-description button a {
+  text-decoration: none;
+  color: #fff !important;
+}
+#team_child .contact-description button {
+  background: transparent;
+  color: #fff;
+  text-align: center;
+  padding: 5px 40px;
+  border-radius: 20px;
+  border: 2px solid #4cbcec;
+  margin: 50px 0px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+#team_child .contact-description button:hover {
+  color: #fff;
+  background: #4cbcec;
+}
+#team_child .web-bg {
+  background-color: #f5f5f5;
+}
+
+#team_child .iamge2 {
+  padding-block-start: 50px;
+  height: 300px;
+}
+#team_child .row1 {
+  margin-block-start: 40px;
+}
+
+#team_child .container .col-md-4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#team_child .container .card::before {
+  content: "";
+  position: absolute;
+  top: -50px;
+  height: 0;
+  width: 150%;
+  background-color: #1369ce;
+  z-index: -1;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  transition: all 0.5s ease-in-out;
+}
+
+#team_child .container .card {
+  width: 280px;
+  height: 320px;
+  overflow: hidden;
+  z-index: 3;
+  transition: all 0.5s ease-in-out;
+  border: none;
+  box-shadow: 5px 5px 10px #1f1f1fa8, -5px -5px 10px #1f1f1fa8;
+}
+
+#team_child .container .card::before {
+  height: 150px;
+}
+
+#team_child .container .card .img-container {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 30px;
+  transition: all 0.5s ease-in-out;
+}
+
+#team_child .container .card .img-container {
+  border: 10px solid #1369ce;
+}
+
+#team_child .container .card .img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: scale(1);
+  transition: all 0.5s ease-in-out;
+}
+
+#team_child .container .card .img-container img {
+  box-shadow: 0 0 0 14px #f7f5ec;
+  transform: scale(0.8);
+}
+
+#team_child.container .card .h3 {
+  margin-bottom: 5px !important;
+  font-weight: 600;
+  pointer-events: none;
+}
+
+#team_child .container .card .designation {
+  font-size: 0.85rem;
+  /* letter-spacing: 2px; */
+  pointer-events: none;
+}
+
+#team_child .container .card ul {
+  background-color: #1369ce;
+  transition: all 0.5s ease-in-out;
+  transform: translateY(100px);
+}
+
+#team_child .container .card ul {
+  transform: translateY(52px);
+}
+
+#team_child .container .card ul li {
+  padding: 5px 8px;
+  transition: all 0.4s;
+}
+
+#team_child .container .card ul li a {
+  color: #fff;
+}
+#team_child .container3 {
+  margin-block-end: auto;
+}
+#team_child .service-bg {
+  background: linear-gradient(
+      135deg,
+      rgb(159, 162, 168, 0.5),
+      rgba(4, 4, 5, 0.5)
+    ),
+    url("https://therapidhiredev.herokuapp.com/banner//2021-10-21T09-14-54.976Zdevelop.jpg"), no-repeat, center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 70vh;
+}
+
+#team_child .fw-light {
+  color: #fff;
+  font-weight: 900 !important;
+  text-transform: uppercase;
+}
+
+#team_child .lead {
+  color: #fff;
+  font-weight: 400 !important;
+  padding-top: 5px;
+}
+
+/* end testinomial */
+
+#team_child .card1 {
+  border: none;
+}
+
+#team_child .user-content p {
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+#team_child .ratings i {
+  color: blue;
+}
+#team_child .container .card-img {
+  width: 280px;
+  height: 320px;
+  overflow: hidden;
+  z-index: 3;
+  transition: all 0.5s ease-in-out;
+  border: none;
+  /* box-shadow: 5px 5px 10px #1f1f1fa8, -5px -5px 10px #1f1f1fa8 */
+}
+#team_child.container .card-img {
+  margin-bottom: 5px !important;
+  font-weight: 600;
+  pointer-events: none;
+}
+
+#team_child .container .card-img {
+  font-size: 0.85rem;
+  /* letter-spacing: 2px; */
+  pointer-events: none;
+}
+
+#team_child .container .card-img {
+  transform: translateY(40px);
+}
+#team_child .container .card-img::before {
+  content: "";
+  position: absolute;
+  top: -50px;
+  height: 0;
+  width: 150%;
+  background-color: #1369ce;
+  z-index: -1;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  transition: all 0.5s ease-in-out;
+}
+
+#team_child .container .card-img {
+  width: 280px;
+  height: 320px;
+  overflow: hidden;
+  z-index: 3;
+  transition: all 0.5s ease-in-out;
+  border: none;
+  box-shadow: 5px 5px 10px #1f1f1fa8, -5px -5px 10px #1f1f1fa8;
+}
+
+@media only screen and (max-width: 450px) {
+  #team_child .home-info-grey h2 {
+    text-align: center;
+  }
+  #team_child .col-md-7 {
+    padding-top: 35px;
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  #team_child .home-info-grey h2 {
+    text-align: center;
+  }
+  #team_child .col-md-7 {
+    padding-top: 35px;
+    margin-top: 0px;
+  }
+}
+
+#team_child #demo {
+  background: linear-gradient(112deg, #a3a0a0 50%, antiquewhite 50%);
+  max-width: 900px;
+  margin: auto;
+}
+#team_child .carousel-caption {
+  position: initial;
+  z-index: 10;
+  padding: 5rem 8rem;
+  color: rgba(78, 77, 77, 0.856);
+  text-align: center;
+  font-size: 1.2rem;
+  font-style: italic;
+  font-weight: bold;
+  line-height: 2rem;
+}
+
+@media (max-width: 767px) {
+  #team_child .carousel-caption {
+    position: initial;
+    z-index: 10;
+    padding: 3rem 2rem;
+    color: rgba(78, 77, 77, 0.856);
+    text-align: center;
+    font-size: 0.7rem;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 1.5rem;
+  }
+}
+
+#team_child .carousel-caption img {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 5rem;
+  margin-top: 2rem;
+}
+
+#team_child .carousel-control-prev i {
+  background-color: #4CBCEC;
+  padding: 1.4rem;
+}
+#team_child .carousel-control-next i {
+  background-color: #4CBCEC;
+  padding: 1.4rem;
+}
+
+@media (max-width: 767px) {
+  #team_child .carousel-caption img {
+    width: 4rem;
+    border-radius: 4rem;
+    margin-top: 1rem;
+  }
+}
+
+#team_child #image-caption {
+  font-style: normal;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 767px) {
+  #team_child #image-caption {
+    font-style: normal;
+    font-size: 0.6rem;
+    margin-top: 0.5rem;
+  }
+}
+
+/* #team_child i {
+      background-color: rgb(223, 56, 89);
+      padding: 1.4rem
+  }
+  
+  @media(max-width:767px) {
+    #team_child  i {
+          padding: 0.8rem
+      }
+  }
+   */
+/* .carousel-control-prev {
+      justify-content: flex-start
+  }
+  
+  .carousel-control-next {
+      justify-content: flex-end
+  } */
+
+.carousel-control-prev,
+.carousel-control-next {
+  transition: none;
+  opacity: unset;
+}

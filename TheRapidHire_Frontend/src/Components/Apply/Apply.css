@@ -1,0 +1,272 @@
+#apply .service-bg {
+  background: cornflowerblue;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 70vh;
+}
+
+#apply .fw-light {
+  color: #fff;
+  font-weight: 900 !important;
+  text-transform: uppercase;
+}
+
+#apply .apply-sec {
+  padding: 50px 0px;
+  background-color: #f2f7fb00;
+}
+
+#apply .lead {
+  color: #fff;
+  font-weight: 400 !important;
+  padding-top: 5px;
+}
+
+#apply .form-group {
+  margin-bottom: 1.25em;
+}
+
+#apply .form-material .form-control {
+  display: inline-block;
+  height: 43px;
+  width: 100%;
+  border: none;
+  border-radius: 0;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 9px;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-bottom: 1px solid #ccc;
+}
+
+#apply button {
+  background: transparent;
+  /* color: #000 !important; */
+  text-align: center;
+  padding: 0.25rem 0.75rem;
+  /* border-radius: 20px; */
+  /* border: 2px solid #003380; */
+  color: rgba(0, 0, 0, 0.55);
+  border-color: rgba(0, 0, 0, 0.1);
+  margin: 10px 0px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+#apply button:hover {
+  /* color: #080f3e !important;
+    background: #003380; */
+}
+
+#apply .form {
+  width: 100%;
+  max-width: 880px;
+  background: linear-gradient(
+    to bottom,
+    rgba(26, 111, 118, 1) 50%,
+    rgba(40, 30, 101, 1) 100%,
+    rgba(125, 185, 232, 1) 100%
+  );
+  border-radius: 4px;
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#apply .contact-info-form {
+  background-color: #d7e7eb;
+  position: relative;
+}
+
+#apply .circle {
+  border-radius: 50%;
+  background: linear-gradient(135deg, transparent 20%, #a7323254);
+  position: absolute;
+}
+
+#apply .circle.one {
+  width: 130px;
+  height: 130px;
+  top: 130px;
+  right: -40px;
+}
+
+#apply .circle.two {
+  width: 80px;
+  height: 80px;
+  top: 10px;
+  right: 30px;
+}
+
+#apply form {
+  padding: 2.3rem 2.2rem;
+  z-index: 10;
+  overflow: hidden;
+  position: relative;
+}
+
+#apply .title {
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1;
+  margin-bottom: 0.7rem;
+}
+
+#apply .btn {
+  padding: 0.6rem 1.3rem;
+  background-color: #46b9ec !important;
+  border: 2px solid #46b9ec !important;
+  font-size: 0.95rem;
+  color: black;
+  line-height: 1;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+  margin: 0;
+}
+
+#apply .listHeading {
+  color: #fff;
+  font-size: 26px;
+  line-height: 26px;
+  font-weight: 500;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+#apply .listForJob li {
+  font-size: 14px;
+  line-height: 22px;
+  color: #fff;
+  list-style: disc !important;
+  margin-bottom: 7px;
+}
+
+#apply .contact-info {
+  padding: 5.5rem 2.2rem;
+  position: relative;
+  text-align: justify;
+  padding-top: 150px;
+  margin-left: -31px;
+}
+
+#apply .contact-info .title {
+  color: white !important;
+  padding-top: 100px;
+  text-align: center;
+}
+
+#apply .big-circle {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background: linear-gradient(to bottom, #46b9ec);
+  bottom: 50%;
+  right: 50%;
+  transform: translate(-40%, 38%);
+}
+
+#apply .big-circle:after {
+  content: "";
+  position: absolute;
+  width: 360px;
+  height: 360px;
+  background-color: #fafafa;
+  border-radius: 50%;
+  top: calc(50% - 180px);
+  left: calc(50% - 180px);
+}
+
+@media (max-width: 850px) {
+  #apply .form {
+    grid-template-columns: 1fr;
+  }
+
+  #apply .contact-info:before {
+    bottom: initial;
+    top: -75px;
+    right: 65px;
+    transform: scale(0.95);
+  }
+
+  #apply .contact-info-form:before {
+    top: -13px;
+    left: initial;
+    right: 70px;
+  }
+
+  #apply .big-circle {
+    bottom: 75%;
+    transform: scale(0.9) translate(-40%, 30%);
+    right: 50%;
+  }
+}
+
+@media (max-width: 480px) {
+  #apply .container {
+    padding: 1.5rem;
+  }
+
+  #apply .contact-info:before {
+    display: none;
+  }
+
+  #apply .square,
+  .big-circle {
+    display: none;
+  }
+
+  #apply form,
+  .contact-info {
+    padding: 1.7rem 1.6rem;
+  }
+
+  #apply .text,
+  .social-information,
+  .social-media p {
+    font-size: 0.8rem;
+  }
+
+  #apply .input {
+    padding: 0.45rem 1.2rem;
+  }
+}
+
+#apply .mt-3 {
+  padding-right: 115px;
+}
+
+#apply .form-control {
+  border: none;
+  border-radius: 0px;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+#apply .form-control::placeholder {
+  font-size: 13px;
+  color: #c2c2cc;
+}
+
+#apply .btn-success {
+  padding: 7px 40px;
+  background: #11c892;
+  border: none;
+  border-radius: 30px;
+  font-size: 12px;
+}
+#apply .btn-success:focus {
+  box-shadow: none;
+}
+#apply .text-center1 {
+  padding-top: 50px;
+  color: white;
+}
